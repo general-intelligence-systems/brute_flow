@@ -8,8 +8,8 @@ PATH
 PATH
   remote: .
   specs:
-    brute_flow (0.1.0)
-      bpmn (>= 0.4.0)
+    brute_flow (0.1.1)
+      bpmn (~> 0.4)
       brute (~> 0.1)
 
 GEM
