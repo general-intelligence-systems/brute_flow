@@ -9,7 +9,12 @@ Gem::Specification.new do |spec|
                         "for multi-agent orchestration — parallel branches, conditional " \
                         "routing, loops with timeouts, and pluggable service tasks."
   spec.license       = "MIT"
+  spec.homepage      = "https://github.com/general-intelligence-systems/brute_flow"
   spec.required_ruby_version = ">= 3.2"
+
+  spec.metadata = {
+    "documentation_uri" => "https://general-intelligence-systems.github.io/brute_flow/",
+  }
 
   spec.files         = Dir["lib/**/*.rb"]
   spec.require_paths = ["lib"]
